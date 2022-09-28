@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Step Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+   
+
+
+
+
+
+    <body>
+       <video autoplay muted loop id="bgVideo">
+            <source src="people_walking.mp4" type="video/mp4">
+        </video>
+    <div class="wrapper">
+    <h2 class="title">Step Converter App</h2>
+    <h3 id="info">Enter the steps and hit calculate</h3>
+    <p class="input">steps</p>
+    <input type="number" onfocus="this.value=''" id="steps">
+    <!--This is loader image section-->
+    <div class="loader">
+      <img src="people_loading.gif" alt="loading anim">
+    </div>
+    <p id="km"></p>
+    <p id="calories"></p>
+    <!--Buttons for UI-->
+    <button id="btn" class="calculate">Calculate</button>
+    <button id="btn" class="clear">Clear</button>
+    <br>
+    <br>
+    <footer class="footer">
+        <h5>Inspired by 2022 recession.</h5>
+        <h5>Follow Bek Brace's YT for cool ASMR Programming.</h5>
+        <h5>Los Santos Coding Co &copy;</h5>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
